@@ -1,0 +1,32 @@
+.landing-page-container {
+    height: 100vh;
+    color: white !important;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: red 1px solid;
+}
+
+.nav-bar-title {
+    width: auto;
+}
+
+.nav-bar-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+}
