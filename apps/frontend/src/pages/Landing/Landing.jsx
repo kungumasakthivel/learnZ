@@ -15,6 +15,19 @@ function Landing() {
           <p>Login</p>
         </div>
       </nav>
+
+      <div className='landing-body-container'>
+        <h3 data-text="Build Your Kido's mind with" className='body-heading'>
+          Build Your Kido's mind with
+        </h3>
+        <h1 className='learnz-word'>
+          learnZ
+        </h1>
+      </div>
+      
+      <div className='landing-body-container-2'>
+        <h1>Yet to add...</h1>
+      </div>
     </div>
   )
 }

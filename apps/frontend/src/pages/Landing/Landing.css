@@ -1,11 +1,10 @@
 .landing-page-container {
-    height: 100vh;
     color: white !important;
 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 .nav-bar-container {
@@ -14,13 +13,18 @@
     justify-content: space-between;
     align-items: center;
     width: 80vw;
+    height: 15vh;
     padding-left: 20px;
     padding-right: 20px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
 }
 
 .nav-bar-title {
     width: auto;
+}
+
+.nav-bar-title h2 {
+    font-size: 2.5vw;
 }
 
 .nav-bar-options {
@@ -29,4 +33,84 @@
     justify-content: space-around;
     align-items: center;
     width: 30vw;
+    font-weight: bold;
+}
+
+.landing-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 80vw;
+    height: 85vh;
+}
+
+.body-heading {
+    font-size: 4vw;
+    position: relative;
+    color: #242424;
+    -webkit-text-stroke: 0.2vw white;
+    letter-spacing: 2px;
+    margin-top: 11%;
+    margin-bottom: 0px;
+}
+
+.body-heading::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: white;
+    -webkit-text-stroke: 0vw rgb(119, 126, 134);
+    overflow: hidden;
+    animation: animate 5s linear infinite;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+@keyframes animate 
+{
+    0%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 100%;
+    }
+}
+
+.learnz-word {
+    margin-top: 20px;
+    font-size: 6vw;
+
+    display: block;
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.landing-body-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
