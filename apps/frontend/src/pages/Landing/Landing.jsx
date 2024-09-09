@@ -1,5 +1,6 @@
 import React from 'react'
 import './Landing.css'
+import Footer from '../Footer/Footer';
 
 function Landing() {
   return (
@@ -37,6 +38,9 @@ function Landing() {
           </div>
         </div>
       </div>
+
+      {/* footer */}
+      <Footer />
     </div>
   )
 }

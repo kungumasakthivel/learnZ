@@ -1,0 +1,20 @@
+.footer-container {
+    width: 80vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-z {
+    color: #ff6f00;
+    font-size: large;
+    font-weight: bold;
+}
+
+.icon-email:hover {
+    color: #FF7F00;
+    cursor: pointer;
+    text-decoration: underline;
+}
