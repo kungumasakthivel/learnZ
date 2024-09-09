@@ -9,35 +9,6 @@
     align-items: center;
 }
 
-.nav-bar-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 80vw;
-    height: 15vh;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* border: red 1px solid; */
-}
-
-.nav-bar-title {
-    width: auto;
-}
-
-.nav-bar-title h2 {
-    font-size: 2.5vw;
-}
-
-.nav-bar-options {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 30vw;
-    font-weight: bold;
-}
-
 .landing-body-container {
     display: flex;
     flex-direction: column;

@@ -1,21 +1,12 @@
 import React from 'react'
 import './Landing.css'
 import Footer from '../Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 
 function Landing() {
   return (
     <div className='landing-page-container'> 
-      <nav className='nav-bar-container'>
-        <div className='nav-bar-title'>
-          <h2>learnZ</h2>
-        </div>
-        <div className='nav-bar-options'>
-          <p>Home</p>
-          <p>About</p>
-          <p>Product</p>
-          <p>Login</p>
-        </div>
-      </nav>
+      <Navbar />
 
       <div className='landing-body-container'>
         <h3 data-text="Build Your Kido's mind with" className='body-heading'>
