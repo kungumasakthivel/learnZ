@@ -28,14 +28,13 @@ function Landing() {
       <div className='landing-body-container-2'>
         <div className='layer-1'>
           <div className='box-1'>
-            
+            <h1 className='learnz-word'>
+              learnZ
+            </h1>
           </div>
           <div className='box-2'>
 
           </div>
-        </div>
-        <div className='layer-2'>
-
         </div>
       </div>
     </div>
