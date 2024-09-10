@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
 
 .landing-page-container {
     color: white !important;
@@ -114,6 +115,24 @@
     width: 50%;
     height: 70%;
     border: 2px dashed white;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2 > h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.box-2 > h1 {
+    font-size: 3vw;
+}
+
+.box-2 > h2, h3 {
+    font-size: 2vw;
 }
 
 /* animation for box-2*/

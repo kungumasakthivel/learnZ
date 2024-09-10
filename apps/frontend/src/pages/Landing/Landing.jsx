@@ -25,7 +25,10 @@ function Landing() {
             </h1>
           </div>
           <div className='box-2'>
-
+            <h1>Platform to</h1>
+            <h1>boost your kids</h1>
+            <h1>intelligence with</h1>
+            <h1>interactive games🎮</h1>
           </div>
         </div>
       </div>
