@@ -20,8 +20,9 @@
 .nav-bar-options {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
+    gap: 10%;
     width: 30vw;
     font-weight: bold;
 }

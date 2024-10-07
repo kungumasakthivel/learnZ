@@ -9,8 +9,6 @@ function Navbar() {
           <h2>learnZ</h2>
         </div>
         <div className='nav-bar-options'>
-          <p>Home</p> 
-          <p>About</p>
           <p>Product</p>
           <p>Login</p>
         </div>
