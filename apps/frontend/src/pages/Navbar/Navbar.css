@@ -1,3 +1,7 @@
+.header-z {
+    color: #ff6f00;
+}
+
 .nav-bar-container {
     display: flex;
     flex-direction: row;
@@ -24,5 +28,16 @@
     align-items: center;
     gap: 10%;
     width: 30vw;
+    font-size: 18px;
     font-weight: bold;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    cursor: pointer;
+    color: #ff6f00;
 }
