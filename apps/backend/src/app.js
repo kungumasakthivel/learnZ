@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const { connection } = require('./db');
 const { contactRoute } = require('../routes/contactHome.routes');
+const { consoleRoutes } = require('../routes/enquires.console.routes')
 
 
 require('dotenv').config();
@@ -11,6 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/', contactRoute)
+app.use('/', consoleRoutes)
 
 app.get('/', (req, res) => {
     res.send({
